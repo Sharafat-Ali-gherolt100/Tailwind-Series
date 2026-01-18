@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@tailwind utilities;
+/* @utility container{
+
+    margin:auto;
+} */
+
+@theme{
+    /* --breakpoint-2xl:900px;
+    --breakpoint-xl:1100;
+    --breakpoint-md:800px;
+    --breakpoint-2xl:1300px;
+    --breakpoint-big-1700px; */
+
+    /* --padding-10:10px;
+    --padding-20:200px; 
+    --margin-20:100px; */
+
+}
+
+@layer components{
+
+    
+    .btn-primary{
+
+        @apply bg-blue-600 rounded px-10 py-3  border border-black m-5  text-white hover:bg-blue-900
+    }
+
+    .btn-secondery{
+
+        @apply bg-red-600 rounded px-10 py-3 m-5 border border-black text-white hover:bg-red-900
+    }
+
+    .btn-dark{
+
+        @apply bg-black text-white rounded border border-black px-10 py-3 m-5 
+    }
+    .btn-success{
+
+        @apply bg-green-600 text-white border border-black rounded px-10 py-3 m-5 
+    }
+    .btn-info{
+
+        @apply bg-yellow-600 text-white border border-black rounded px-10 py-3 m-5 
+    }
+    .btn-warning{
+
+        @apply bg-pink-600 text-white border border-black rounded px-10 py-3 m-5 
+    }
+    .btn-danger{
+
+        @apply bg-red-600 text-white border border-black rounded px-10 py-3 m-5 
+    }
+    .btn-dark{
+
+        @apply bg-black text-white border border-black rounded px-10 py-3 m-5 
+    }
+}
+
+
+/* @layer base{
+h1{
+    font-size: 50px;
+}
+h2{
+    @apply text-9xl;
+}
+} */
