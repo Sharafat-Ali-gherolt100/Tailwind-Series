@@ -1,3 +1,4 @@
+@import url('  <img src="Space-Background-Images.jpg" class="w-96 rounded transform transition duration-300 hover:scale-105" alt="">');
 @import "tailwindcss";
 @tailwind utilities;
 /* @utility container{
@@ -15,6 +16,7 @@
     /* --padding-10:10px;
     --padding-20:200px; 
     --margin-20:100px; */
+    --font-mondance: "Monsieur La Doulaise", "cursive";
 
 }
 
